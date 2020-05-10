@@ -12,7 +12,7 @@ namespace :db do
   desc 'migrate changes to your databse'
   task :migrate => :environment do
     Student.create_table
-  end
+  # end
   task :seed do
     require_relative './db/seeds.rb'
 end
