@@ -14,3 +14,9 @@ namespace :db do
     Student.create_table
   end
 end
+
+namespace :db do
+  task :seed do
+    require_relative './db/seeds.rb'
+  end
+end 
