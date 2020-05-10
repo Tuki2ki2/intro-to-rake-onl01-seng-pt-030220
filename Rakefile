@@ -16,6 +16,7 @@ end
   task :seed do
   require_relative './db/seeds.rb'
   end
+
   task :console =>:environment do
     Pry.start
   end
