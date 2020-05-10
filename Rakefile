@@ -18,6 +18,3 @@ namespace :db do
 end
 
 # namespace :db do
-
-  end
-end
