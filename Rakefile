@@ -23,5 +23,5 @@ end
 
 namespace :db do
   task :console =>:environment do
-    pry.start
+    Pry.start
   end
